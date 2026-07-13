@@ -5,16 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/bolodb.dev.ico",
     "slug": "bolo-db",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.76%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.76%",
+    "uptimeMonth": "99.76%",
+    "uptimeYear": "99.76%",
     "time": 267,
     "timeDay": 267,
     "timeWeek": 267,
     "timeMonth": 267,
     "timeYear": 267,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-13": 1
+    }
   }
 ]
