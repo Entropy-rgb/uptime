@@ -19,7 +19,7 @@ on:
   schedule:
     - cron: "*/6 * * * *"
   repository_dispatch:
-    types: [uptime]
+    types: [trigger-every-5-min]
   workflow_dispatch:
 concurrency:
   group: ${{ github.repository }}-${{ github.head_ref || github.ref_name }}-upptime
