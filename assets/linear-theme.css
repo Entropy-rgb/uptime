@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Linear-inspired theme for Upptime status page (status.bolodb.dev)
+   Drop this file at: assets/linear-theme.css in your Entropy-rgb/uptime repo
+   ========================================================================== */
+
+:root {
+  /* Core surfaces */
+  --body-background-color: #08090a;
+  --body-text-color: #f7f8f8;
+  --card-background-color: #111214;
+  --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 0 1px #1f2023;
+
+  /* Nav */
+  --nav-background-color: #0d0e10;
+  --nav-border-bottom-color: #1f2023;
+  --nav-text-color: #f7f8f8;
+
+  /* Footer / secondary text */
+  --footer-text-color: #8a8f98;
+
+  /* Links / accent (Linear purple) */
+  --link-color: #5e6ad2;
+
+  /* Status colors */
+  --up-color: #4cb782;
+  --down-color: #eb5757;
+  --degraded-color: #f2b94b;
+
+  /* Typography */
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* ---- Polish that most Upptime builds respond to ----
+   These target common structural elements. If a selector doesn't
+   apply to this build's markup, it's harmless — it just won't match. */
+
+body {
+  font-family: var(--font-family);
+  letter-spacing: -0.01em;
+}
+
+/* Rounded, bordered cards instead of flat blocks */
+.card,
+[class*="card"] {
+  border-radius: 10px !important;
+  border: 1px solid #1f2023 !important;
+  background-color: var(--card-background-color) !important;
+  box-shadow: var(--card-shadow) !important;
+}
+
+/* Subtle nav border + tighter type */
+nav,
+[class*="nav"] {
+  border-bottom: 1px solid var(--nav-border-bottom-color) !important;
+  backdrop-filter: blur(6px);
+}
+
+/* Accent links */
+a {
+  color: var(--link-color);
+  transition: color 0.15s ease;
+}
+a:hover {
+  color: #7b83e8;
+}
+
+/* Muted secondary text */
+small,
+[class*="muted"],
+[class*="secondary"] {
+  color: var(--footer-text-color) !important;
+}
+
+/* Status pill badges */
+[class*="status"],
+[class*="badge"] {
+  border-radius: 6px !important;
+  font-weight: 500;
+}
