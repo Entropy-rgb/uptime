@@ -17,9 +17,9 @@
 name: Uptime CI
 on:
   schedule:
-    - cron: "*/6 * * * *"
+    - cron: "*/5 * * * *"
   repository_dispatch:
-    types: [trigger-every-5-min]
+    types: [trigger-every-5-min, updates]
   workflow_dispatch:
 concurrency:
   group: ${{ github.repository }}-${{ github.head_ref || github.ref_name }}-upptime
