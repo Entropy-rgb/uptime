@@ -1,6 +1,6 @@
 # Change these first
 owner: Entropy-rgb # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+repo: uptime # The name of this repository
 
 sites:
   - name: BoloDB
@@ -13,7 +13,7 @@ status-website:
   cname: status.bolodb.dev
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: Uptime
   introTitle: "**BoloDB** is an app to query your database in Natural language."
   introMessage: This is the status/uptime of the service BoloDB
   navbar:
