@@ -1,7 +1,9 @@
 # Change these first
 owner: Entropy-rgb # Your GitHub organization or username, where this repository lives
 repo: uptime # The name of this repository
-
+workflowSchedule:
+  uptime: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"        # Runs the status checks every 5 minutes
+  status-website: "0 0 * * *" # Rebuilds the status website once a day
 sites:
   - name: BoloDB
     url: https://bolodb.dev
